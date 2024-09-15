@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <link rel="stylesheet" href="sstyles.css">
+         <title> Sign Up Form</title>
+      
+
+    </head>
+    <body background="https://images.freeimages.com/images/large-previews/01a/technology-background-1632715.jpg?fmt=webp&h=350">
+        <h1>SIGN UP</h1>
+    <body>
+       
+    <label> Please sign in to create an account</label>
+    
+<br>
+        
+        <label for="name">Email Address:</label>
+        <br>
+        <div class="input-box">
+        <input type="text" id="name" name="pang" placeholder=" Enter Email Address">
+    </div>
+        <br>
+
+        <!---->
+        <label for="pass">Password: </label>
+        
+        <br>
+        <div class="input-box">
+            <input type="password" id="pass" placeholder="Enter Password">
+          <img src="eye-close.png" id="eye">
+        </div>
+        <script>
+            let eye = document.getElementById("eye");
+            let pass = document.getElementById("pass");
+        
+            eye.onclick = function(){
+                if(pass.type == "password"){
+                    pass.type = "text";
+                    eye.src =" eye-open.png";
+                  
+                }else{
+                    pass.type = "password";
+                    eye.src ="eye-close.png";
+        
+        
+                }
+            }
+        </script>
+       
+       
+       <br>
+<body>
+    
+
+        <label for="pass">Confirm Password: </label>
+        <br>
+        <div class="input-box">
+        <input type="password"  id="password" placeholder="Confirm Password">
+        <img src="eye-close.png" id="eyeicon">
+       
+        </div>
+
+        <script>
+            let eyeicon = document.getElementById("eyeicon");
+            let password = document.getElementById("password");
+        
+            eyeicon.onclick = function(){
+                if(password.type == "password"){
+                    password.type = "text";
+                    eyeicon.src =" eye-open.png";
+                  
+                }else{
+                    password.type = "password";
+                    eyeicon.src ="eye-close.png";
+        
+        
+                }
+            }
+        </script>
+        
+   
+       
+    </body>
+
+    <button>  <h3>Cancel</h3></a></button> 
+    <button><h3> Sign Up</h3></button>
+
+
+<br>
+
+        <input type="checkbox" id="remember me" values="remember me" name="title">
+            <label for="remember me"> Remember Me</label>
+            <p>By Creating an account you agree to our Terms & Privacy</p>
+
+            <p> Already have an account? <a href="login.html">Click to log In</a></p>
+            <br>
+
+            <a href="https://www.facebook.com/"><img src="facebook (1).png" ></a>
+            <a href="https://www.instagram.com/"><img src="social.png" ></a>
+            <a href="https://www.youtube.com/"><img src="youtube.png" ></a>
+            <a href="https://www.tiktok.com/"><img src="tiktok.png" ></a>
+            
+           
+          
+       
+
+            
+
+       
+       
+    </body>
+
+    
+</html>

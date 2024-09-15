@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LogIn Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body background="https://images.freeimages.com/images/large-previews/01a/technology-background-1632715.jpg?fmt=webp&h=350">
+ 
+<h1> Welcome Back User</h1>
+<label> Log In your account to explore the world of Programming!!!</label>
+
+<br>
+<br>
+<label for="name">Email Address:</label>
+<br>
+<div class="input-box">
+<input type="text" id="name"  placeholder="Enter Email Address">
+</div>
+<br>
+<label for="pass">Password: </label>
+<br>
+
+<div class="input-box">
+    <input type="password" id="pass"placeholder="Enter Password">
+  <img src="eye-close.png" id="eye">
+</div>
+<script>
+    let eye = document.getElementById("eye");
+    let pass = document.getElementById("pass");
+
+    eye.onclick = function(){
+        if(pass.type == "password"){
+            pass.type = "text";
+            eye.src =" eye-open.png";
+          
+        }else{
+            pass.type = "password";
+            eye.src ="eye-close.png"
+
+
+        }
+    }
+</script>
+
+
+
+
+
+
+<input type="checkbox" id="remember me" values="remember me" name="title">
+            <label for="remember me"> Remember Me</label>
+            <br>
+            <button>Log In</button>
+<p> Dont have an account? <a href="index.html">Click to Sign up</a></p>
+<br>
+
+
+<a href="https://www.facebook.com/"><img src="facebook (1).png" ></a>
+<a href="https://www.instagram.com/"><img src="social.png" ></a>
+<a href="https://www.youtube.com/"><img src="youtube.png" ></a>
+<a href="https://www.tiktok.com/"><img src="tiktok.png" ></a>
+ 
+ 
+
+</body>
+</html>
